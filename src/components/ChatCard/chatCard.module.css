@@ -1,0 +1,140 @@
+.chat__section {
+    position: relative;
+    display: grid;
+    grid-template-rows: 60px auto 60px;
+}
+
+.chat__bg {
+    background-image: url('../../assets/background/chat_bg.png');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #efeae2;
+    opacity: 0.4;
+}
+
+.chat__header {
+    position: relative;
+    background-color: #f0f2f5;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 40px auto 40px;
+    align-items: center;
+    padding-left: 8px;
+    border-left: 1px solid #d1d7db;
+    padding-right: 20px;
+}
+
+.chat__header__profile__image {
+    width: 40px;
+    height: 40px;
+}
+
+.chat__header__profile__image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 18px;
+    color: #111b21;
+}
+
+.info {
+    font-size: 12px;
+    color: #6a7b84;
+}
+
+.chat__header__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    border-bottom: 1px solid #e9edef;
+}
+
+.chat__header__right {
+    display: flex;
+}
+
+.chat__body {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 81vh;
+    overflow: auto;
+    z-index: 3;
+    padding: 12px 50px 12px 50px;
+}
+
+.messageElement {
+    background-color: #daf8cb;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: black;
+    z-index: 1;
+    margin: 3px;
+}
+
+.chat__footer {
+    display: grid;
+    grid-template-columns: 100px auto 40px;
+    background-color: #f0f2f5;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.chat__footer__actions img {
+    margin-left: 16px;
+}
+
+.chat__footer__input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.chat__footer__input input {
+    width: 95%;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.chat_empty_bg {
+    background-color: #f0f2f5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 1;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat_empty_bg_title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    color: #3e4a54;
+    margin-top: 40px;
+}
+
+.chat_empty_bg_content {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #667781;
+    margin-top: 16px;
+}
+

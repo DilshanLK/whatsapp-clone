@@ -1,0 +1,58 @@
+[
+  {
+    "chatId": "1",
+    "profileImageUrl": "https://veenanews.in/wp-content/uploads/2023/04/a620ab353cb7c9f0ca16fcd666b44678.jpg",
+    "name": "Rayan",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "lastSeen": "10:32 AM",
+    "messages": [
+      "Hello",
+      "Im Rayan"
+    ]
+  },
+  {
+    "chatId": "2",
+    "profileImageUrl": "https://cdn2.momjunction.com/wp-content/uploads/2019/07/Whatsapp-DP39.jpg",
+    "name": "John",
+    "info": "Suspendisse diam neque, efficitur nec fringilla sit amet, ultrices quis",
+    "lastSeen": "12:41 AM",
+    "messages": [
+      "Hey",
+      "Im John, How are you ?"
+    ]
+  },
+  {
+    "chatId": "3",
+    "profileImageUrl": "https://www.imagediamond.com/blog/wp-content/uploads/2019/11/attratve-Boy-DP4.jpg",
+    "name": "Max",
+    "info": "sollicitudin pulvinar mauris luctus. Nullam a pretium urna, eu interdum eros",
+    "lastSeen": "04:44 PM",
+    "messages": [
+      "Hello Dilshan..",
+      "Are you doing good?"
+    ]
+  },
+  {
+    "chatId": "4",
+    "profileImageUrl": "https://www.mrdustbin.com/en/wp-content/uploads/2020/11/Emma-Watson-864x1024.jpg",
+    "name": "Emma",
+    "info": "Nunc a justo sed nunc tempus imperdiet. Pellentesque at mauris neque",
+    "lastSeen": "01:21 AM",
+    "messages": [
+      "Hi there",
+      "Call be ASAP",
+      "Urgent meeting"
+    ]
+  },
+  {
+    "chatId": "5",
+    "profileImageUrl": "https://www.mrdustbin.com/en/wp-content/uploads/2021/02/olga-kurylenko-852x1024.jpg",
+    "name": "Jennifer",
+    "info": "Donec efficitur felis posuere cursus ornare. Maecenas a purus a nunc rhoncus dapibus a in purus",
+    "lastSeen": "11:11 AM",
+    "messages": [
+      "Hey",
+      "Can you give the latest assignment brief?"
+    ]
+  }
+]

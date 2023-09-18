@@ -1,0 +1,77 @@
+.sidebar {
+ border-right: 1px solid #e9edef;
+}
+
+.sidebar__header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 60px;
+ padding-left: 16px;
+ background-color: #f0f2f5;
+}
+
+.avatar__img__wrapper {
+ width: 40px;
+ height: 40px;
+}
+
+.avatar__img__wrapper img {
+ width: 100%;
+ height: 100%;
+ border-radius: 50%;
+ object-fit: cover;
+}
+
+.sidebar__header__right img {
+ margin-left: 24px;
+}
+
+.sidebar__search {
+ display: flex;
+ align-items: center;
+ padding: 0 10px 0 6px;
+ border-bottom: 1px solid #e9edef;
+}
+
+.search__container {
+ margin: 6px 12px 6px 6px;
+ background-color: #f0f2f5;
+ padding: 8px 10px 8px 16px;
+ display: flex;
+ align-items: center;
+ border-radius: 8px;
+ flex: 1;
+}
+
+.search__container input {
+ border: 0;
+ background-color: #f0f2f5;
+ outline: none;
+ margin-left: 20px;
+ font-size: 14px;
+ width: 100%;
+}
+
+.sidebar__list {
+ height: 84vh;
+ overflow: auto;
+}
+
+.sidebar__list::-webkit-scrollbar {
+ width: 0.4rem;
+}
+
+.sidebar__list::-webkit-scrollbar-track {
+ background: #ffffff;
+}
+
+.sidebar__list::-webkit-scrollbar-thumb {
+ background: #888;
+ border-radius: 0;
+}
+
+.sidebar__list::-webkit-scrollbar-thumb:hover {
+ background: #555;
+}
+
